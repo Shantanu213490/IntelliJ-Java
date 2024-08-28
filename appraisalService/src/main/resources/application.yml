@@ -1,0 +1,27 @@
+
+server:
+  port: 8085
+
+spring:
+  application:
+    name: appraisalService
+  dataSource:
+    url: jdbc:postgresql://172.22.22.189:5432/postgres
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+#  spring:
+#    application:
+#      name: appraisalService
+#    datasource:
+#      url: jdbc:postgresql://172.22.22.189:5432/postgres
+#      username: postgres
+#      password: root
+#    jpa:
+#      hibernate:
+#        ddl-auto: update
+#      show-sql: true
